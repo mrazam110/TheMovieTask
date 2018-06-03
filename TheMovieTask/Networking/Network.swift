@@ -16,7 +16,7 @@ class Network: NSObject {
     func request<E: EndpointProvider>(request: E,
                                       completion: @escaping ((Result<E.Response, NetworkError>) -> Void)) {
         
-        URLSessionConfiguration.default.timeoutIntervalForRequest = request.endpoint.timeout
+        URLSessionConfiguration.default.timeoutIntervalForResource = request.endpoint.timeout
         
         Alamofire.request(request.endpoint.api.url,
                           method: request.endpoint.method,
