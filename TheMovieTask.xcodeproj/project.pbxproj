@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2772635420C45EFA00DE2A63 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635320C45EFA00DE2A63 /* Network.swift */; };
+		2772635A20C4625200DE2A63 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635520C4625100DE2A63 /* BaseURL.swift */; };
+		2772635B20C4625200DE2A63 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635620C4625200DE2A63 /* NetworkError.swift */; };
+		2772635C20C4625200DE2A63 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635720C4625200DE2A63 /* Result.swift */; };
+		2772635D20C4625200DE2A63 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635820C4625200DE2A63 /* API.swift */; };
+		2772635E20C4625200DE2A63 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635920C4625200DE2A63 /* Endpoint.swift */; };
+		2772636120C4625900DE2A63 /* API+TheMovieTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772635F20C4625900DE2A63 /* API+TheMovieTask.swift */; };
+		2772636220C4625900DE2A63 /* BaseURL+TheMovieTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772636020C4625900DE2A63 /* BaseURL+TheMovieTask.swift */; };
+		2772636620C4626100DE2A63 /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772636320C4626100DE2A63 /* DTO.swift */; };
+		2772636720C4626100DE2A63 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772636420C4626100DE2A63 /* Mappable.swift */; };
+		2772636820C4626100DE2A63 /* EndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772636520C4626100DE2A63 /* EndpointProvider.swift */; };
+		2772636A20C462BA00DE2A63 /* JSONEncoder+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772636920C462BA00DE2A63 /* JSONEncoder+Mapper.swift */; };
 		2784DA6720C45CAD002ACBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2784DA6620C45CAD002ACBF3 /* AppDelegate.swift */; };
 		2784DA6C20C45CAD002ACBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2784DA6A20C45CAD002ACBF3 /* Main.storyboard */; };
 		2784DA6E20C45CAE002ACBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2784DA6D20C45CAE002ACBF3 /* Assets.xcassets */; };
@@ -17,6 +28,17 @@
 
 /* Begin PBXFileReference section */
 		2772635320C45EFA00DE2A63 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2772635520C4625100DE2A63 /* BaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		2772635620C4625200DE2A63 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2772635720C4625200DE2A63 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2772635820C4625200DE2A63 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2772635920C4625200DE2A63 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		2772635F20C4625900DE2A63 /* API+TheMovieTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+TheMovieTask.swift"; sourceTree = "<group>"; };
+		2772636020C4625900DE2A63 /* BaseURL+TheMovieTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseURL+TheMovieTask.swift"; sourceTree = "<group>"; };
+		2772636320C4626100DE2A63 /* DTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
+		2772636420C4626100DE2A63 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		2772636520C4626100DE2A63 /* EndpointProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointProvider.swift; sourceTree = "<group>"; };
+		2772636920C462BA00DE2A63 /* JSONEncoder+Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+Mapper.swift"; sourceTree = "<group>"; };
 		2784DA6320C45CAD002ACBF3 /* TheMovieTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2784DA6620C45CAD002ACBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2784DA6B20C45CAD002ACBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +65,9 @@
 		2772635020C45EE700DE2A63 /* Contracts */ = {
 			isa = PBXGroup;
 			children = (
+				2772636320C4626100DE2A63 /* DTO.swift */,
+				2772636520C4626100DE2A63 /* EndpointProvider.swift */,
+				2772636420C4626100DE2A63 /* Mappable.swift */,
 			);
 			path = Contracts;
 			sourceTree = "<group>";
@@ -50,6 +75,8 @@
 		2772635120C45EEE00DE2A63 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2772636020C4625900DE2A63 /* BaseURL+TheMovieTask.swift */,
+				2772635F20C4625900DE2A63 /* API+TheMovieTask.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -57,6 +84,11 @@
 		2772635220C45EF200DE2A63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2772635820C4625200DE2A63 /* API.swift */,
+				2772635520C4625100DE2A63 /* BaseURL.swift */,
+				2772635920C4625200DE2A63 /* Endpoint.swift */,
+				2772635620C4625200DE2A63 /* NetworkError.swift */,
+				2772635720C4625200DE2A63 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,6 +165,7 @@
 		27B75BF420C45D3200221D9F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2772636920C462BA00DE2A63 /* JSONEncoder+Mapper.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -282,8 +315,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2772635E20C4625200DE2A63 /* Endpoint.swift in Sources */,
+				2772636820C4626100DE2A63 /* EndpointProvider.swift in Sources */,
 				2772635420C45EFA00DE2A63 /* Network.swift in Sources */,
+				2772636120C4625900DE2A63 /* API+TheMovieTask.swift in Sources */,
+				2772635C20C4625200DE2A63 /* Result.swift in Sources */,
+				2772635B20C4625200DE2A63 /* NetworkError.swift in Sources */,
+				2772636220C4625900DE2A63 /* BaseURL+TheMovieTask.swift in Sources */,
 				2784DA6720C45CAD002ACBF3 /* AppDelegate.swift in Sources */,
+				2772635D20C4625200DE2A63 /* API.swift in Sources */,
+				2772636720C4626100DE2A63 /* Mappable.swift in Sources */,
+				2772635A20C4625200DE2A63 /* BaseURL.swift in Sources */,
+				2772636A20C462BA00DE2A63 /* JSONEncoder+Mapper.swift in Sources */,
+				2772636620C4626100DE2A63 /* DTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +476,10 @@
 				DEVELOPMENT_TEAM = 2KG486CF78;
 				INFOPLIST_FILE = "TheMovieTask/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raza.themovietask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -449,7 +496,10 @@
 				DEVELOPMENT_TEAM = 2KG486CF78;
 				INFOPLIST_FILE = "TheMovieTask/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.raza.themovietask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
